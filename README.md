@@ -1,7 +1,7 @@
 # Contrastive Learning Enhanced Large Language Models for Similar Case Retrieval
-Code for CaseGNN (ECIR 2024 paper):
+Code for CESCR :
 
-Title: [Contrastive Learning Enhanced Large Language Models for Similar Case Retrieval]
+Title: Contrastive Learning Enhanced Large Language Models for Similar Case Retrieval
 
 # Installation
 Requirements can be seen in `/requirements.txt`

@@ -25,7 +25,7 @@ class ContrastiveLossLecard(nn.Module):
         loss = self.one_hot_cross_entropy_loss(score_list, torch.tensor(label_value,dtype=torch.int32).to(score_list.device), reduction='mean')
         loss1 = self.one_hot_cross_entropy_loss(score_list1, torch.tensor(label_value,dtype=torch.int32).to(score_list.device), reduction='mean')
         loss=0.75*loss+0.25*loss1
-        return loss+loss1
+        return loss
     @staticmethod
     def dot_product(emb1, emb2):
         return torch.matmul(emb1, emb2.permute(1, 0))

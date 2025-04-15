@@ -40,8 +40,6 @@ def init_all(config,local_rank, gpu_list, checkpoint, seed, mode, *args, **param
     tokenizer = init_tokenizer(config.get('encoder', 'backbone'))
     
     dataset = CLProcessor(config, tokenizer, input_file=config.get('data', 'data_Lecard'))
-    
-    # sampler=DistributedSampler(dataset)
     train_dataset = DataLoader(dataset,
                                batch_size=config.getint('train', 'batch_size'),
                                collate_fn=dataset.collate_fn1,

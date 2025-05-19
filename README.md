@@ -1,8 +1,7 @@
-# Contrastive Learning Enhanced Large Language Models for Similar Case Retrieval
+# LLM-Guided Multi-View Legal Element-Aware Contrastive Learning Framework for Similar Case Retrieval
 Code for CESCR :
 
-Title: Contrastive Learning Enhanced Large Language Models for Similar Case Retrieval
-
+Title: LLM-Guided Multi-View Legal Element-Aware Contrastive Learning Framework for Similar Case Retrieval
 # Installation
 Requirements can be seen in `/requirements.txt`
 

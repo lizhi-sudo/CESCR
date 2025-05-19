@@ -1,5 +1,5 @@
 # LLM-Guided Multi-View Legal Element-Aware Contrastive Learning Framework for Similar Case Retrieval
-Code for CESCR :
+Code for LMECF :
 
 Title: LLM-Guided Multi-View Legal Element-Aware Contrastive Learning Framework for Similar Case Retrieval
 # Installation
